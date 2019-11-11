@@ -15,11 +15,15 @@ code {
 html,
 body,
 #root,
-.app-container,
 .sidebar,
 .home-container,
 .chat-container {
   height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
@@ -31,6 +35,7 @@ body,
 }
 
 .app-container {
+  flex: 1;
   display: flex;
   flex-direction: row;
 }

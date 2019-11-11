@@ -31,6 +31,9 @@
       "plugin:react/recommended",
       "plugin:import/errors"
     ],
+    "rules": {
+      "react/prop-types": 0
+    },
     "parserOptions": {
       "sourceType": "module",
       "ecmaFeatures": {

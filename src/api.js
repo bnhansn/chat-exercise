@@ -4,7 +4,7 @@ async function fetchChatEvents() {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({ events: chatEvents })
-    }, 1000)
+    }, 500)
   })
 }
 

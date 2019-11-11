@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Sidebar() {
   return (
-    <div className="sidebar">Sidebar.js</div>
+    <div className="sidebar">
+      Sidebar.js
+    </div>
   )
 }
